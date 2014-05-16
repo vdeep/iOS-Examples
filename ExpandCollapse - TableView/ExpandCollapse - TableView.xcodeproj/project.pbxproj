@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94BFE801920A08600D72AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE7F1920A08600D72AB5 /* Foundation.framework */; };
+		C94BFE821920A08600D72AB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE811920A08600D72AB5 /* CoreGraphics.framework */; };
+		C94BFE841920A08600D72AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE831920A08600D72AB5 /* UIKit.framework */; };
+		C94BFE8A1920A08600D72AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94BFE881920A08600D72AB5 /* InfoPlist.strings */; };
+		C94BFE8C1920A08600D72AB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BFE8B1920A08600D72AB5 /* main.m */; };
+		C94BFE901920A08600D72AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BFE8F1920A08600D72AB5 /* AppDelegate.m */; };
+		C94BFE921920A08600D72AB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94BFE911920A08600D72AB5 /* Images.xcassets */; };
+		C94BFE991920A08600D72AB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE981920A08600D72AB5 /* XCTest.framework */; };
+		C94BFE9A1920A08600D72AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE7F1920A08600D72AB5 /* Foundation.framework */; };
+		C94BFE9B1920A08600D72AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BFE831920A08600D72AB5 /* UIKit.framework */; };
+		C94BFEA31920A08600D72AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C94BFEA11920A08600D72AB5 /* InfoPlist.strings */; };
+		C94BFEA51920A08600D72AB5 /* ExpandCollapse___TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BFEA41920A08600D72AB5 /* ExpandCollapse___TableViewTests.m */; };
+		C94BFEAF1920A0E500D72AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94BFEAE1920A0E500D72AB5 /* Main.storyboard */; };
+		C94BFEB21920A17200D72AB5 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BFEB11920A17200D72AB5 /* MainTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94BFE9C1920A08600D72AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94BFE741920A08500D72AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94BFE7B1920A08600D72AB5;
+			remoteInfo = "ExpandCollapse - TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C94BFE7C1920A08600D72AB5 /* ExpandCollapse - TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpandCollapse - TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94BFE7F1920A08600D72AB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C94BFE811920A08600D72AB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C94BFE831920A08600D72AB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C94BFE871920A08600D72AB5 /* ExpandCollapse - TableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandCollapse - TableView-Info.plist"; sourceTree = "<group>"; };
+		C94BFE891920A08600D72AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C94BFE8B1920A08600D72AB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C94BFE8D1920A08600D72AB5 /* ExpandCollapse - TableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpandCollapse - TableView-Prefix.pch"; sourceTree = "<group>"; };
+		C94BFE8E1920A08600D72AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C94BFE8F1920A08600D72AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C94BFE911920A08600D72AB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C94BFE971920A08600D72AB5 /* ExpandCollapse - TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpandCollapse - TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94BFE981920A08600D72AB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C94BFEA01920A08600D72AB5 /* ExpandCollapse - TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandCollapse - TableViewTests-Info.plist"; sourceTree = "<group>"; };
+		C94BFEA21920A08600D72AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C94BFEA41920A08600D72AB5 /* ExpandCollapse___TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExpandCollapse___TableViewTests.m"; sourceTree = "<group>"; };
+		C94BFEAE1920A0E500D72AB5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C94BFEB01920A17200D72AB5 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		C94BFEB11920A17200D72AB5 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94BFE791920A08600D72AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFE821920A08600D72AB5 /* CoreGraphics.framework in Frameworks */,
+				C94BFE841920A08600D72AB5 /* UIKit.framework in Frameworks */,
+				C94BFE801920A08600D72AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94BFE941920A08600D72AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFE991920A08600D72AB5 /* XCTest.framework in Frameworks */,
+				C94BFE9B1920A08600D72AB5 /* UIKit.framework in Frameworks */,
+				C94BFE9A1920A08600D72AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94BFE731920A08500D72AB5 = {
+			isa = PBXGroup;
+			children = (
+				C94BFE851920A08600D72AB5 /* ExpandCollapse - TableView */,
+				C94BFE9E1920A08600D72AB5 /* ExpandCollapse - TableViewTests */,
+				C94BFE7E1920A08600D72AB5 /* Frameworks */,
+				C94BFE7D1920A08600D72AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94BFE7D1920A08600D72AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFE7C1920A08600D72AB5 /* ExpandCollapse - TableView.app */,
+				C94BFE971920A08600D72AB5 /* ExpandCollapse - TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94BFE7E1920A08600D72AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFE7F1920A08600D72AB5 /* Foundation.framework */,
+				C94BFE811920A08600D72AB5 /* CoreGraphics.framework */,
+				C94BFE831920A08600D72AB5 /* UIKit.framework */,
+				C94BFE981920A08600D72AB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C94BFE851920A08600D72AB5 /* ExpandCollapse - TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFE8E1920A08600D72AB5 /* AppDelegate.h */,
+				C94BFE8F1920A08600D72AB5 /* AppDelegate.m */,
+				C94BFE911920A08600D72AB5 /* Images.xcassets */,
+				C94BFE861920A08600D72AB5 /* Supporting Files */,
+				C94BFEAE1920A0E500D72AB5 /* Main.storyboard */,
+				C94BFEB01920A17200D72AB5 /* MainTableViewController.h */,
+				C94BFEB11920A17200D72AB5 /* MainTableViewController.m */,
+			);
+			path = "ExpandCollapse - TableView";
+			sourceTree = "<group>";
+		};
+		C94BFE861920A08600D72AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFE871920A08600D72AB5 /* ExpandCollapse - TableView-Info.plist */,
+				C94BFE881920A08600D72AB5 /* InfoPlist.strings */,
+				C94BFE8B1920A08600D72AB5 /* main.m */,
+				C94BFE8D1920A08600D72AB5 /* ExpandCollapse - TableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C94BFE9E1920A08600D72AB5 /* ExpandCollapse - TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFEA41920A08600D72AB5 /* ExpandCollapse___TableViewTests.m */,
+				C94BFE9F1920A08600D72AB5 /* Supporting Files */,
+			);
+			path = "ExpandCollapse - TableViewTests";
+			sourceTree = "<group>";
+		};
+		C94BFE9F1920A08600D72AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94BFEA01920A08600D72AB5 /* ExpandCollapse - TableViewTests-Info.plist */,
+				C94BFEA11920A08600D72AB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94BFE7B1920A08600D72AB5 /* ExpandCollapse - TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94BFEA81920A08600D72AB5 /* Build configuration list for PBXNativeTarget "ExpandCollapse - TableView" */;
+			buildPhases = (
+				C94BFE781920A08600D72AB5 /* Sources */,
+				C94BFE791920A08600D72AB5 /* Frameworks */,
+				C94BFE7A1920A08600D72AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExpandCollapse - TableView";
+			productName = "ExpandCollapse - TableView";
+			productReference = C94BFE7C1920A08600D72AB5 /* ExpandCollapse - TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94BFE961920A08600D72AB5 /* ExpandCollapse - TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94BFEAB1920A08600D72AB5 /* Build configuration list for PBXNativeTarget "ExpandCollapse - TableViewTests" */;
+			buildPhases = (
+				C94BFE931920A08600D72AB5 /* Sources */,
+				C94BFE941920A08600D72AB5 /* Frameworks */,
+				C94BFE951920A08600D72AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94BFE9D1920A08600D72AB5 /* PBXTargetDependency */,
+			);
+			name = "ExpandCollapse - TableViewTests";
+			productName = "ExpandCollapse - TableViewTests";
+			productReference = C94BFE971920A08600D72AB5 /* ExpandCollapse - TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94BFE741920A08500D72AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Logiciel Solutions";
+				TargetAttributes = {
+					C94BFE961920A08600D72AB5 = {
+						TestTargetID = C94BFE7B1920A08600D72AB5;
+					};
+				};
+			};
+			buildConfigurationList = C94BFE771920A08500D72AB5 /* Build configuration list for PBXProject "ExpandCollapse - TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C94BFE731920A08500D72AB5;
+			productRefGroup = C94BFE7D1920A08600D72AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94BFE7B1920A08600D72AB5 /* ExpandCollapse - TableView */,
+				C94BFE961920A08600D72AB5 /* ExpandCollapse - TableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94BFE7A1920A08600D72AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFEAF1920A0E500D72AB5 /* Main.storyboard in Resources */,
+				C94BFE8A1920A08600D72AB5 /* InfoPlist.strings in Resources */,
+				C94BFE921920A08600D72AB5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94BFE951920A08600D72AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFEA31920A08600D72AB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94BFE781920A08600D72AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFE901920A08600D72AB5 /* AppDelegate.m in Sources */,
+				C94BFE8C1920A08600D72AB5 /* main.m in Sources */,
+				C94BFEB21920A17200D72AB5 /* MainTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94BFE931920A08600D72AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94BFEA51920A08600D72AB5 /* ExpandCollapse___TableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94BFE9D1920A08600D72AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94BFE7B1920A08600D72AB5 /* ExpandCollapse - TableView */;
+			targetProxy = C94BFE9C1920A08600D72AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C94BFE881920A08600D72AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94BFE891920A08600D72AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C94BFEA11920A08600D72AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94BFEA21920A08600D72AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C94BFEA61920A08600D72AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C94BFEA71920A08600D72AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C94BFEA91920A08600D72AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandCollapse - TableView/ExpandCollapse - TableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandCollapse - TableView/ExpandCollapse - TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C94BFEAA1920A08600D72AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandCollapse - TableView/ExpandCollapse - TableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandCollapse - TableView/ExpandCollapse - TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C94BFEAC1920A08600D72AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExpandCollapse - TableView.app/ExpandCollapse - TableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandCollapse - TableView/ExpandCollapse - TableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExpandCollapse - TableViewTests/ExpandCollapse - TableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C94BFEAD1920A08600D72AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExpandCollapse - TableView.app/ExpandCollapse - TableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandCollapse - TableView/ExpandCollapse - TableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandCollapse - TableViewTests/ExpandCollapse - TableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94BFE771920A08500D72AB5 /* Build configuration list for PBXProject "ExpandCollapse - TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94BFEA61920A08600D72AB5 /* Debug */,
+				C94BFEA71920A08600D72AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94BFEA81920A08600D72AB5 /* Build configuration list for PBXNativeTarget "ExpandCollapse - TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94BFEA91920A08600D72AB5 /* Debug */,
+				C94BFEAA1920A08600D72AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C94BFEAB1920A08600D72AB5 /* Build configuration list for PBXNativeTarget "ExpandCollapse - TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94BFEAC1920A08600D72AB5 /* Debug */,
+				C94BFEAD1920A08600D72AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C94BFE741920A08500D72AB5 /* Project object */;
+}
