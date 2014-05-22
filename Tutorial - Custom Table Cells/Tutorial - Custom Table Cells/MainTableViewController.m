@@ -50,6 +50,8 @@
     [student setImagePath:@"http://graph.facebook.com/vikashpathak91/picture?type=large"];
     [student setDescription:@"Developer at Logiciel Solutions"];
     [records addObject:student];
+    
+    self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
@@ -81,7 +83,6 @@
     
     [UIImage loadFromURL:[NSURL URLWithString:student.imagePath] callback:^(UIImage *image) {
         cell.imageView_pic.image = image;
-        cell.imageView_pic.layer.cornerRadius = cell.imageView_pic.frame.size.width / 2;
     }];
     
     return cell;

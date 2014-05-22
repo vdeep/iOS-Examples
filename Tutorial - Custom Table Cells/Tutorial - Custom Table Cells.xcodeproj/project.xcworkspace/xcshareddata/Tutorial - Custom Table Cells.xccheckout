@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7F3FE8BB-78E0-41B4-86CC-5232CE508D7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tutorial - Custom Table Cells</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>724434BE-BC77-4FD7-B92E-BC6A553D1EF9</key>
+		<string>https://github.com/vishal-logiciel/iOS-Examples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tutorial - Custom Table Cells/Tutorial - Custom Table Cells.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>724434BE-BC77-4FD7-B92E-BC6A553D1EF9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vishal-logiciel/iOS-Examples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>724434BE-BC77-4FD7-B92E-BC6A553D1EF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>724434BE-BC77-4FD7-B92E-BC6A553D1EF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
